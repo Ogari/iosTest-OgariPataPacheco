@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		084B2AE123D2FAEB00B754AB /* iosTest_OgariPataPachecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B2AE023D2FAEB00B754AB /* iosTest_OgariPataPachecoTests.swift */; };
 		084B2AEC23D2FAEB00B754AB /* iosTest_OgariPataPachecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B2AEB23D2FAEB00B754AB /* iosTest_OgariPataPachecoUITests.swift */; };
 		084B2AFA23D3E21500B754AB /* CollectionViewCustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B2AF923D3E21500B754AB /* CollectionViewCustomImageCell.swift */; };
+		0869F90F23D45E480009A936 /* GlobalAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869F90E23D45E480009A936 /* GlobalAssets.swift */; };
+		0869F91123D461180009A936 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869F91023D461180009A936 /* APIServices.swift */; };
+		0869F91323D461290009A936 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869F91223D461290009A936 /* Extensions.swift */; };
 		76A1BB9169B012D4104FE60C /* Pods_iosTest_OgariPataPacheco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC9512F1890D668FF7948D8 /* Pods_iosTest_OgariPataPacheco.framework */; };
 		7CCAF90433C50D8AE7B49BE5 /* Pods_iosTest_OgariPataPachecoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E066F4211D13A812208FCC6 /* Pods_iosTest_OgariPataPachecoTests.framework */; };
 		B5717E663552F64C08B55BB0 /* Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E93ED1BE263DCC48021A21E /* Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework */; };
@@ -53,6 +56,9 @@
 		084B2AEB23D2FAEB00B754AB /* iosTest_OgariPataPachecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTest_OgariPataPachecoUITests.swift; sourceTree = "<group>"; };
 		084B2AED23D2FAEB00B754AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		084B2AF923D3E21500B754AB /* CollectionViewCustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCustomImageCell.swift; sourceTree = "<group>"; };
+		0869F90E23D45E480009A936 /* GlobalAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalAssets.swift; sourceTree = "<group>"; };
+		0869F91023D461180009A936 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		0869F91223D461290009A936 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1E93ED1BE263DCC48021A21E /* Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755C614DDE70667A3E24CB7 /* Pods-iosTest-OgariPataPachecoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosTest-OgariPataPachecoTests.debug.xcconfig"; path = "Target Support Files/Pods-iosTest-OgariPataPachecoTests/Pods-iosTest-OgariPataPachecoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E066F4211D13A812208FCC6 /* Pods_iosTest_OgariPataPachecoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosTest_OgariPataPachecoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				084B2ACB23D2FAE900B754AB /* AppDelegate.swift */,
+				0869F91223D461290009A936 /* Extensions.swift */,
+				0869F91023D461180009A936 /* APIServices.swift */,
+				0869F90E23D45E480009A936 /* GlobalAssets.swift */,
 				084B2AF923D3E21500B754AB /* CollectionViewCustomImageCell.swift */,
 				084B2ACD23D2FAE900B754AB /* ViewController.swift */,
 				084B2ACF23D2FAE900B754AB /* Main.storyboard */,
@@ -165,7 +174,6 @@
 				3755C614DDE70667A3E24CB7 /* Pods-iosTest-OgariPataPachecoTests.debug.xcconfig */,
 				54AD2A585915234629667BF7 /* Pods-iosTest-OgariPataPachecoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,8 +417,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				084B2ACE23D2FAE900B754AB /* ViewController.swift in Sources */,
+				0869F90F23D45E480009A936 /* GlobalAssets.swift in Sources */,
+				0869F91323D461290009A936 /* Extensions.swift in Sources */,
 				084B2ACC23D2FAE900B754AB /* AppDelegate.swift in Sources */,
 				084B2AFA23D3E21500B754AB /* CollectionViewCustomImageCell.swift in Sources */,
+				0869F91123D461180009A936 /* APIServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
