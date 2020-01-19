@@ -7,23 +7,109 @@
 //
 
 import UIKit
+import AKVideoImageView
 
 extension UIImageView {
-    func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {  // for swift 4.2 syntax just use ===> mode: UIView.ContentMode
+    
+    // Auxiliar function to download video to local repo - so I can play the movie
+    func downloadVideo(url: URL)
+    {
+//        let urlString = "http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4"
+        
+        DispatchQueue.global(qos: .default).async(execute: {
+            //All stuff here
+            
+            print("Downloading video...");
+//            let url=NSURL(string: urlString);
+            let urlData=NSData(contentsOf: url as URL);
+            
+            if((urlData) != nil)
+            {
+                let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+                
+//                let fileName = urlString as NSString;
+                let fileName = url.absoluteString as NSString;
+                
+                let filePath="\(documentsPath)/\(fileName.lastPathComponent)";
+                
+                let fileExists = FileManager().fileExists(atPath: filePath)
+                
+                if(fileExists){
+                    // File is already downloaded
+                    print("Video file already downloaded!")
+                }
+                else{
+                    //Download
+                    DispatchQueue.main.async(execute: { () -> Void in
+                        print("Will save on following path...")
+                        print(filePath)
+                        urlData?.write(toFile: filePath, atomically: true);
+                        print("videoSaved");
+                        
+                        // Searches the URL and tries to play it
+                        let fileURL = NSURL.init(fileURLWithPath: filePath)
+//                        let request = NSURLRequest.init(url: fileURL as URL)
+                        
+                        let videoView = AKVideoImageView(frame: self.bounds, videoURL: fileURL as URL)!
+                        self.addSubview(videoView)
+                        
+                    })
+                }
+            }
+        })
+    }
+    
+    
+    
+    func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
         contentMode = mode
+        
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard
                 let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,
                 let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
                 let data = data, error == nil,
                 let image = UIImage(data: data)
-                else { return }
+                else {
+                    print("ERROR: Could not convert the downloaded file from the link given to an image!")
+                    
+                    let imageExtensions = ["jpg", "jpeg", "png", "gif"]
+                    // Iterate & match the URL objects from your checking results
+                    let pathExtention = url.pathExtension
+                    if !(imageExtensions.contains(pathExtention))
+                    {
+                        print("Movie URL: \(String(describing: url))")
+                        //                    let url = Bundle.main.url(forResource: "video_1", withExtension: "mp4")!
+                        DispatchQueue.main.async() {
+                            self.downloadVideo(url: url)
+                        }
+                    }
+                    return
+                    }
             DispatchQueue.main.async() {
-                self.image = image
+                let imageExtensions = ["jpg", "jpeg", "png", "gif"]
+                // Iterate & match the URL objects from your checking results
+                let pathExtention = url.pathExtension
+                if imageExtensions.contains(pathExtention)
+                {
+                    print("Image URL: \(String(describing: url))")
+                    self.image = image
+                }
+//                else
+//                {
+//                    print("Movie URL: \(String(describing: url))")
+////                    let url = Bundle.main.url(forResource: "video_1", withExtension: "mp4")!
+//                    let videoView = AKVideoImageView(frame: self.bounds, videoURL: url)!
+//                    self.addSubview(videoView)
+//                }
+                
+                
+//                self.image = image
+                
             }
             }.resume()
     }
-    func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {  // for swift 4.2 syntax just use ===> mode: UIView.ContentMode
+    func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
         guard let url = URL(string: link) else { return }
         downloaded(from: url, contentMode: mode)
     }
@@ -68,6 +154,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
             print(i)
             guard let imgs = (gallery[i] as AnyObject)["images"] as? Array<Any>
                 else {
+                    // CHECK FOR MISTAKES HERE!
                     print("Error: gallery images error") // FIX
                     return
             }
@@ -79,12 +166,10 @@ class ViewController: UIViewController, UICollectionViewDataSource {
                     print("Error: imgURL link error") // FIX
                     return
             }
-//            DispatchQueue.main.async {
-//                self.imgURLsArray.append(imgURL)
-//            }
+            
             print(imgURL) // OK
+            
             self.imgURLsArray.append(imgURL)
-//            self.collectionView.reloadData()
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
             }
@@ -157,24 +242,9 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "customImageCell", for: indexPath) as! CollectionViewCustomImageCell
         
         cell.imageView.contentMode = .scaleAspectFill
-//        cell.imageView.downloaded(from: <#T##URL#>)
         cell.imageView.downloaded(from: imgURLsArray[indexPath.row])
         
         return cell
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-// VOU FAZER BAIXAR DE 6 em 6 imagens
-// Faco um vetor pegar cada uma das 6 imagens (e faco logica de display de mostrar ela - 1 [0<=>5], alem de ter um contador que eh atualizado, somando 6 pra mais, ou perdendo 6, pra menos)
-// *** MUDAR LOGICA: Mais inteligente fazer um contador da página, pois bastará fazer o número da página (1 em diante) vezes 6, pra saber onde é a última imagem. Além disso, fazer cada posição, da menor pra maior, ser: Valor calculado (ex: 2x6 = 12) -6; depois -5; a terceira -4... até -1.
-

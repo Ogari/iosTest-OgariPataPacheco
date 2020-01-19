@@ -7,6 +7,7 @@ target 'iosTest-OgariPataPacheco' do
 
   # Pods for iosTest-OgariPataPacheco
     pod "AKVideoImageView", "~> 1.0"
+   # pod "MediaView"
 
   target 'iosTest-OgariPataPachecoTests' do
     inherit! :search_paths
