@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 class APIServices {
-    
     var imgURLsArray : [String] = []
+    let global: GlobalAssets = GlobalAssets()
     
     func imgurGetImageURLs(gallery: Array<Any>, collectionView: UICollectionView){
         for i in 0...gallery.count {
@@ -41,12 +41,12 @@ class APIServices {
         
     }
     
-    func imgurFetchPhotoRequest(clientID: String, urlArray: inout [String], collectionView: UICollectionView)  {
+    func imgurFetchPhotoRequest(collectionView: UICollectionView)  {
         
-        let string = "https://api.imgur.com/3/gallery/search/?q=cats"
+        let string = global.imgurImageSearch
         let url = NSURL(string: string)
         let request = NSMutableURLRequest(url: url! as URL)
-        request.setValue(clientID, forHTTPHeaderField: "Authorization") //**
+        request.setValue(global.imgurClientID, forHTTPHeaderField: "Authorization") //**
         request.httpMethod = "GET"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         let session = URLSession.shared
