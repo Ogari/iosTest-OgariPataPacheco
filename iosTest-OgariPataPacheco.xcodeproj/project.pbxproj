@@ -14,6 +14,7 @@
 		084B2AD623D2FAEB00B754AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084B2AD423D2FAEB00B754AB /* LaunchScreen.storyboard */; };
 		084B2AE123D2FAEB00B754AB /* iosTest_OgariPataPachecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B2AE023D2FAEB00B754AB /* iosTest_OgariPataPachecoTests.swift */; };
 		084B2AEC23D2FAEB00B754AB /* iosTest_OgariPataPachecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B2AEB23D2FAEB00B754AB /* iosTest_OgariPataPachecoUITests.swift */; };
+		084B2AFA23D3E21500B754AB /* CollectionViewCustomImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B2AF923D3E21500B754AB /* CollectionViewCustomImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		084B2AE723D2FAEB00B754AB /* iosTest-OgariPataPachecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosTest-OgariPataPachecoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		084B2AEB23D2FAEB00B754AB /* iosTest_OgariPataPachecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosTest_OgariPataPachecoUITests.swift; sourceTree = "<group>"; };
 		084B2AED23D2FAEB00B754AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084B2AF923D3E21500B754AB /* CollectionViewCustomImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCustomImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				084B2ACB23D2FAE900B754AB /* AppDelegate.swift */,
+				084B2AF923D3E21500B754AB /* CollectionViewCustomImageCell.swift */,
 				084B2ACD23D2FAE900B754AB /* ViewController.swift */,
 				084B2ACF23D2FAE900B754AB /* Main.storyboard */,
 				084B2AD223D2FAEB00B754AB /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				084B2ACE23D2FAE900B754AB /* ViewController.swift in Sources */,
 				084B2ACC23D2FAE900B754AB /* AppDelegate.swift in Sources */,
+				084B2AFA23D3E21500B754AB /* CollectionViewCustomImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
