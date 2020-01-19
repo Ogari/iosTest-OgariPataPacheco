@@ -1,0 +1,6 @@
+framework module Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests {
+  umbrella header "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

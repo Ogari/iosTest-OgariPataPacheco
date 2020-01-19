@@ -82,13 +82,16 @@ class ViewController: UIViewController, UICollectionViewDataSource {
 //            DispatchQueue.main.async {
 //                self.imgURLsArray.append(imgURL)
 //            }
-//            print(imgURL) // OK
+            print(imgURL) // OK
             self.imgURLsArray.append(imgURL)
-            self.collectionView.reloadData()
+//            self.collectionView.reloadData()
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
         }
-        DispatchQueue.main.async {
-            self.collectionView.reloadData()
-        }
+//        DispatchQueue.main.async {
+//            self.collectionView.reloadData()
+//        }
 
     }
     

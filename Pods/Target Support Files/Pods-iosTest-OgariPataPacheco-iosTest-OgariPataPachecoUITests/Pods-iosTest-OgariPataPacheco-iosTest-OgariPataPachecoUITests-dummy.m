@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests
+@end

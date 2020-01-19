@@ -1,0 +1,16 @@
+PODS:
+  - AKVideoImageView (1.1.2)
+
+DEPENDENCIES:
+  - AKVideoImageView (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - AKVideoImageView
+
+SPEC CHECKSUMS:
+  AKVideoImageView: ec5ed83c024f9b8149b042072177cd1e8c1aaf57
+
+PODFILE CHECKSUM: 3367a20c6edf1d532b7a0e376180fff6c42969e4
+
+COCOAPODS: 1.8.4

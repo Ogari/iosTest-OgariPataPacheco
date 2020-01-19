@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE7217EECD4335430EF81E4824733A1 /* AKVideoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F7AA692FA451385EFADBC3C476BC0 /* AKVideoImageView.m */; };
+		337BF2D4F4B5410B3BB01728C3F02B73 /* AKVideoImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED16E64FBE05A83018DCA3FA524341AA /* AKVideoImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B690F384E319C80F83AD190742D8E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		3D7EE7A7FAEFEA985A21C9D63C8BE15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		4B6F258AEBD8868DF908A467D520B468 /* Pods-iosTest-OgariPataPacheco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A16796231ED9E2F160CDD958D77F328 /* Pods-iosTest-OgariPataPacheco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7689C7B1773810F43B9B9C1E2B0537A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		80D3BCC4E33C26BFFDCE9BE60AF459E9 /* AKVideoImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E251912F21A5C891C5146095EC6A0600 /* AKVideoImageView-dummy.m */; };
+		A741B5389A9639D8E467DFEFDC594E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		AC719880AB259196B06AA79D3E0F939B /* Pods-iosTest-OgariPataPacheco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E34D14F067FBF296E3B1A6C8BBCBF110 /* Pods-iosTest-OgariPataPacheco-dummy.m */; };
+		B30F238046A1BFE8B0EE418FBDEFD862 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D532DF56B1E47DF2F60B1FB6208E351C /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-dummy.m */; };
+		B511E41CD293BC1CFFFD98EAB826CDC4 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BFB5DCD7529C05E9274636093658AD /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAC0BE6E7DE29BA03D868005061C5737 /* Pods-iosTest-OgariPataPachecoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C55CBA5574AE3143ACF5157990AB2E6 /* Pods-iosTest-OgariPataPachecoTests-dummy.m */; };
+		DF5C2C76402F2F74B5C70FB9CB5722D6 /* AKVideoImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83755FA4B037E010BAA0A1C3A5536FE6 /* AKVideoImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF0B157B2075315027F58D85A7C8BB1A /* Pods-iosTest-OgariPataPachecoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F10CA0F7D46025E80CAD8A87337D6963 /* Pods-iosTest-OgariPataPachecoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F457D6D268FED94A99823285639C3D2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */; };
+		FA2A3AB7D0854E0C956F400D931352FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105EAE876ACC2A47341F1EF7A6FACC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3DE3CFBA61608732F1766CB2A9A453;
+			remoteInfo = "Pods-iosTest-OgariPataPacheco";
+		};
+		5D7F3EA9BF925E017136BF209211D082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73DAAF0C6F3A3A10F5B7973CEEE7AAF2;
+			remoteInfo = AKVideoImageView;
+		};
+		F6E348DA2DDF89023BBEA55008CC1C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73DAAF0C6F3A3A10F5B7973CEEE7AAF2;
+			remoteInfo = AKVideoImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F5992D22A03A04D405DCC0417DF907A /* AKVideoImageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKVideoImageView-Info.plist"; sourceTree = "<group>"; };
+		1F92D09D1625D4A6B9510A3E4248B5AC /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-Info.plist"; sourceTree = "<group>"; };
+		2A16796231ED9E2F160CDD958D77F328 /* Pods-iosTest-OgariPataPacheco-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosTest-OgariPataPacheco-umbrella.h"; sourceTree = "<group>"; };
+		2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D55A1DA0133EDEC988B858ADBD0E1C0 /* Pods-iosTest-OgariPataPacheco-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosTest-OgariPataPacheco-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31BC852E63DD7510F2F00E9EBDB2FC87 /* Pods-iosTest-OgariPataPachecoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosTest-OgariPataPachecoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33EA6575C376655A151D8013CDDD870D /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A205B771EDA89C437881DDFF040CC62 /* Pods-iosTest-OgariPataPacheco-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosTest-OgariPataPacheco-acknowledgements.plist"; sourceTree = "<group>"; };
+		451253682990E4DB1CEC66B732554903 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4743906642E5ADF3A137E86F57A50C66 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		49D3FC2CB8FE436D5BC6C9507319C2F6 /* Pods_iosTest_OgariPataPacheco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosTest_OgariPataPacheco.framework; path = "Pods-iosTest-OgariPataPacheco.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B61C4E51BF4DA2FCA5F7A391C445778 /* Pods-iosTest-OgariPataPacheco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosTest-OgariPataPacheco.debug.xcconfig"; sourceTree = "<group>"; };
+		53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C55CBA5574AE3143ACF5157990AB2E6 /* Pods-iosTest-OgariPataPachecoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosTest-OgariPataPachecoTests-dummy.m"; sourceTree = "<group>"; };
+		65D4E5EF5297E69BF1A644287F6F0C9D /* Pods-iosTest-OgariPataPachecoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosTest-OgariPataPachecoTests.modulemap"; sourceTree = "<group>"; };
+		6A538F58E4D11EF3C1352ADAEB41F27E /* Pods-iosTest-OgariPataPacheco.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosTest-OgariPataPacheco.modulemap"; sourceTree = "<group>"; };
+		6F16D0507D364712473B50701CC0373F /* AKVideoImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKVideoImageView.framework; path = AKVideoImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BFB5DCD7529C05E9274636093658AD /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-umbrella.h"; sourceTree = "<group>"; };
+		745F7AA692FA451385EFADBC3C476BC0 /* AKVideoImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKVideoImageView.m; path = Classes/AKVideoImageView.m; sourceTree = "<group>"; };
+		75E3A712EEEB749AE0F12C22EAB37331 /* Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AE96E1661B11A1502001859E90D705 /* Pods-iosTest-OgariPataPacheco-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosTest-OgariPataPacheco-frameworks.sh"; sourceTree = "<group>"; };
+		80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		83755FA4B037E010BAA0A1C3A5536FE6 /* AKVideoImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKVideoImageView.h; path = Classes/AKVideoImageView.h; sourceTree = "<group>"; };
+		87A7C5475ADD9D04F4CBEE2C851A9594 /* Pods-iosTest-OgariPataPacheco-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosTest-OgariPataPacheco-Info.plist"; sourceTree = "<group>"; };
+		9B66A0ED8A850D967809C8B485DCDB59 /* AKVideoImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKVideoImageView.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE9E5AF765038B37C5B6EED2C13CA8A7 /* Pods_iosTest_OgariPataPachecoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosTest_OgariPataPachecoTests.framework; path = "Pods-iosTest-OgariPataPachecoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0894DF7705751A9770169A559447682 /* Pods-iosTest-OgariPataPachecoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosTest-OgariPataPachecoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1BDB6613563A44D86D9051A5F96EB02 /* Pods-iosTest-OgariPataPachecoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosTest-OgariPataPachecoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C849DCDB86EEFCC2809129EFDE636A86 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C891542A1445F0FD27FA7456CB462B25 /* Pods-iosTest-OgariPataPachecoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosTest-OgariPataPachecoTests-Info.plist"; sourceTree = "<group>"; };
+		CCB03DB7BEC8341B9DF83515E045062D /* Pods-iosTest-OgariPataPachecoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosTest-OgariPataPachecoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE1B8F30A368DEB353C8EA24FD0DF414 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.modulemap"; sourceTree = "<group>"; };
+		CEC4E4B1476C66E24B509CB043A8F7B9 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D532DF56B1E47DF2F60B1FB6208E351C /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-dummy.m"; sourceTree = "<group>"; };
+		DD09E500C81A8261118440AF4AAC5388 /* AKVideoImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKVideoImageView.xcconfig; sourceTree = "<group>"; };
+		E251912F21A5C891C5146095EC6A0600 /* AKVideoImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKVideoImageView-dummy.m"; sourceTree = "<group>"; };
+		E34D14F067FBF296E3B1A6C8BBCBF110 /* Pods-iosTest-OgariPataPacheco-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosTest-OgariPataPacheco-dummy.m"; sourceTree = "<group>"; };
+		ED16E64FBE05A83018DCA3FA524341AA /* AKVideoImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKVideoImageView-umbrella.h"; sourceTree = "<group>"; };
+		EEF528D91477D16608CD751D86A916DF /* AKVideoImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKVideoImageView-prefix.pch"; sourceTree = "<group>"; };
+		F10CA0F7D46025E80CAD8A87337D6963 /* Pods-iosTest-OgariPataPachecoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosTest-OgariPataPachecoTests-umbrella.h"; sourceTree = "<group>"; };
+		F5AE93177AA729407B36897BD3AB3D5F /* Pods-iosTest-OgariPataPacheco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosTest-OgariPataPacheco.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5D17C3239EFD0BFCC8501E14904423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7689C7B1773810F43B9B9C1E2B0537A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2962C51DC727FF74EDE86C6E6AD3C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A741B5389A9639D8E467DFEFDC594E49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C34F7D0C806688818FB87FAF58C4A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2A3AB7D0854E0C956F400D931352FD /* AVFoundation.framework in Frameworks */,
+				3B690F384E319C80F83AD190742D8E7E /* Foundation.framework in Frameworks */,
+				F457D6D268FED94A99823285639C3D2C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EE8A8D969F894DC7F7D355A9B3024E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7EE7A7FAEFEA985A21C9D63C8BE15D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8010B600FC99A0DCA5086146A2B24B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C3A3EE371B1B4803121CEE379271649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C7E449BEC8DDA1111D3B3D40801FD0B /* AKVideoImageView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35907989C6EF7666B5BEF0BC3A47E770 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B8F30A368DEB353C8EA24FD0DF414 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.modulemap */,
+				33EA6575C376655A151D8013CDDD870D /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-acknowledgements.markdown */,
+				4743906642E5ADF3A137E86F57A50C66 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-acknowledgements.plist */,
+				D532DF56B1E47DF2F60B1FB6208E351C /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-dummy.m */,
+				451253682990E4DB1CEC66B732554903 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-frameworks.sh */,
+				1F92D09D1625D4A6B9510A3E4248B5AC /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-Info.plist */,
+				71BFB5DCD7529C05E9274636093658AD /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-umbrella.h */,
+				C849DCDB86EEFCC2809129EFDE636A86 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.debug.xcconfig */,
+				CEC4E4B1476C66E24B509CB043A8F7B9 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.release.xcconfig */,
+			);
+			name = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests";
+			path = "Target Support Files/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests";
+			sourceTree = "<group>";
+		};
+		4C7E449BEC8DDA1111D3B3D40801FD0B /* AKVideoImageView */ = {
+			isa = PBXGroup;
+			children = (
+				83755FA4B037E010BAA0A1C3A5536FE6 /* AKVideoImageView.h */,
+				745F7AA692FA451385EFADBC3C476BC0 /* AKVideoImageView.m */,
+				919DD8146BDD732959E0BFA12EF17B59 /* Support Files */,
+			);
+			name = AKVideoImageView;
+			path = AKVideoImageView;
+			sourceTree = "<group>";
+		};
+		72827D7438365E6832FFCF94332320A6 /* Pods-iosTest-OgariPataPachecoTests */ = {
+			isa = PBXGroup;
+			children = (
+				65D4E5EF5297E69BF1A644287F6F0C9D /* Pods-iosTest-OgariPataPachecoTests.modulemap */,
+				C1BDB6613563A44D86D9051A5F96EB02 /* Pods-iosTest-OgariPataPachecoTests-acknowledgements.markdown */,
+				CCB03DB7BEC8341B9DF83515E045062D /* Pods-iosTest-OgariPataPachecoTests-acknowledgements.plist */,
+				5C55CBA5574AE3143ACF5157990AB2E6 /* Pods-iosTest-OgariPataPachecoTests-dummy.m */,
+				C891542A1445F0FD27FA7456CB462B25 /* Pods-iosTest-OgariPataPachecoTests-Info.plist */,
+				F10CA0F7D46025E80CAD8A87337D6963 /* Pods-iosTest-OgariPataPachecoTests-umbrella.h */,
+				31BC852E63DD7510F2F00E9EBDB2FC87 /* Pods-iosTest-OgariPataPachecoTests.debug.xcconfig */,
+				C0894DF7705751A9770169A559447682 /* Pods-iosTest-OgariPataPachecoTests.release.xcconfig */,
+			);
+			name = "Pods-iosTest-OgariPataPachecoTests";
+			path = "Target Support Files/Pods-iosTest-OgariPataPachecoTests";
+			sourceTree = "<group>";
+		};
+		755E68AADD51BCA6D6EFD08551CDF15B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D21061E7C178E62F1FC6BFE4CBCF9F05 /* Pods-iosTest-OgariPataPacheco */,
+				35907989C6EF7666B5BEF0BC3A47E770 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests */,
+				72827D7438365E6832FFCF94332320A6 /* Pods-iosTest-OgariPataPachecoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		919DD8146BDD732959E0BFA12EF17B59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B66A0ED8A850D967809C8B485DCDB59 /* AKVideoImageView.modulemap */,
+				DD09E500C81A8261118440AF4AAC5388 /* AKVideoImageView.xcconfig */,
+				E251912F21A5C891C5146095EC6A0600 /* AKVideoImageView-dummy.m */,
+				1F5992D22A03A04D405DCC0417DF907A /* AKVideoImageView-Info.plist */,
+				EEF528D91477D16608CD751D86A916DF /* AKVideoImageView-prefix.pch */,
+				ED16E64FBE05A83018DCA3FA524341AA /* AKVideoImageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKVideoImageView";
+			sourceTree = "<group>";
+		};
+		BD5D31342954E228461863D0D019F458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F16D0507D364712473B50701CC0373F /* AKVideoImageView.framework */,
+				49D3FC2CB8FE436D5BC6C9507319C2F6 /* Pods_iosTest_OgariPataPacheco.framework */,
+				75E3A712EEEB749AE0F12C22EAB37331 /* Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework */,
+				AE9E5AF765038B37C5B6EED2C13CA8A7 /* Pods_iosTest_OgariPataPachecoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				2C3A3EE371B1B4803121CEE379271649 /* Pods */,
+				BD5D31342954E228461863D0D019F458 /* Products */,
+				755E68AADD51BCA6D6EFD08551CDF15B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D21061E7C178E62F1FC6BFE4CBCF9F05 /* Pods-iosTest-OgariPataPacheco */ = {
+			isa = PBXGroup;
+			children = (
+				6A538F58E4D11EF3C1352ADAEB41F27E /* Pods-iosTest-OgariPataPacheco.modulemap */,
+				2D55A1DA0133EDEC988B858ADBD0E1C0 /* Pods-iosTest-OgariPataPacheco-acknowledgements.markdown */,
+				3A205B771EDA89C437881DDFF040CC62 /* Pods-iosTest-OgariPataPacheco-acknowledgements.plist */,
+				E34D14F067FBF296E3B1A6C8BBCBF110 /* Pods-iosTest-OgariPataPacheco-dummy.m */,
+				76AE96E1661B11A1502001859E90D705 /* Pods-iosTest-OgariPataPacheco-frameworks.sh */,
+				87A7C5475ADD9D04F4CBEE2C851A9594 /* Pods-iosTest-OgariPataPacheco-Info.plist */,
+				2A16796231ED9E2F160CDD958D77F328 /* Pods-iosTest-OgariPataPacheco-umbrella.h */,
+				4B61C4E51BF4DA2FCA5F7A391C445778 /* Pods-iosTest-OgariPataPacheco.debug.xcconfig */,
+				F5AE93177AA729407B36897BD3AB3D5F /* Pods-iosTest-OgariPataPacheco.release.xcconfig */,
+			);
+			name = "Pods-iosTest-OgariPataPacheco";
+			path = "Target Support Files/Pods-iosTest-OgariPataPacheco";
+			sourceTree = "<group>";
+		};
+		DF8010B600FC99A0DCA5086146A2B24B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */,
+				2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */,
+				80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D9A5578202742D7945FCA1D15B14948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6F258AEBD8868DF908A467D520B468 /* Pods-iosTest-OgariPataPacheco-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0C081CD57DD80085F21E9C4E8689F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B511E41CD293BC1CFFFD98EAB826CDC4 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26BC093B32206A406B7D2C2337C1D93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0B157B2075315027F58D85A7C8BB1A /* Pods-iosTest-OgariPataPachecoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0759247135F09533CDA25BE6653F872 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337BF2D4F4B5410B3BB01728C3F02B73 /* AKVideoImageView-umbrella.h in Headers */,
+				DF5C2C76402F2F74B5C70FB9CB5722D6 /* AKVideoImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D90B63D9FF5C7FCE39BB9ED992B192D /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B14A768AF7D30EEF7A80448D0C6772A /* Build configuration list for PBXNativeTarget "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests" */;
+			buildPhases = (
+				9FF0C081CD57DD80085F21E9C4E8689F /* Headers */,
+				8423B2384359D01D45EA1E5AF86E2031 /* Sources */,
+				4C5D17C3239EFD0BFCC8501E14904423 /* Frameworks */,
+				7122FE3A510C4A6122A874816E93BE09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB604054E90B36D75511E05086EDBAE /* PBXTargetDependency */,
+			);
+			name = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests";
+			productName = "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests";
+			productReference = 75E3A712EEEB749AE0F12C22EAB37331 /* Pods_iosTest_OgariPataPacheco_iosTest_OgariPataPachecoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73DAAF0C6F3A3A10F5B7973CEEE7AAF2 /* AKVideoImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D44E3F5DDA8AE84171AE4A20A3295A5 /* Build configuration list for PBXNativeTarget "AKVideoImageView" */;
+			buildPhases = (
+				C0759247135F09533CDA25BE6653F872 /* Headers */,
+				19663659F1838DA64BE1D71836703EE1 /* Sources */,
+				9C34F7D0C806688818FB87FAF58C4A50 /* Frameworks */,
+				29FA566F451D8947EDA1C5F4C68B61A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKVideoImageView;
+			productName = AKVideoImageView;
+			productReference = 6F16D0507D364712473B50701CC0373F /* AKVideoImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC3DE3CFBA61608732F1766CB2A9A453 /* Pods-iosTest-OgariPataPacheco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2491D1AE2B103908F36098B6FB9E48 /* Build configuration list for PBXNativeTarget "Pods-iosTest-OgariPataPacheco" */;
+			buildPhases = (
+				9D9A5578202742D7945FCA1D15B14948 /* Headers */,
+				11A54C13F6951D3774EE02ECC33DBB1C /* Sources */,
+				6F2962C51DC727FF74EDE86C6E6AD3C8 /* Frameworks */,
+				5BC7647CEA14038B51F94F97E155E976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA0DFF06A1C18991370B8EDB6A22532 /* PBXTargetDependency */,
+			);
+			name = "Pods-iosTest-OgariPataPacheco";
+			productName = "Pods-iosTest-OgariPataPacheco";
+			productReference = 49D3FC2CB8FE436D5BC6C9507319C2F6 /* Pods_iosTest_OgariPataPacheco.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2C0B0AF1A5537D817490006FA4D9787 /* Pods-iosTest-OgariPataPachecoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55207E1AD647CE1165CB13008CD3BA21 /* Build configuration list for PBXNativeTarget "Pods-iosTest-OgariPataPachecoTests" */;
+			buildPhases = (
+				A26BC093B32206A406B7D2C2337C1D93 /* Headers */,
+				2021D82DFFCA82F82D024BAE1E5F30C9 /* Sources */,
+				E2EE8A8D969F894DC7F7D355A9B3024E /* Frameworks */,
+				58454196EEBC528C654D39CDDC16EA02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CFAD8311DC8DAB710F06BCC569EA5D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-iosTest-OgariPataPachecoTests";
+			productName = "Pods-iosTest-OgariPataPachecoTests";
+			productReference = AE9E5AF765038B37C5B6EED2C13CA8A7 /* Pods_iosTest_OgariPataPachecoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BD5D31342954E228461863D0D019F458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DAAF0C6F3A3A10F5B7973CEEE7AAF2 /* AKVideoImageView */,
+				BC3DE3CFBA61608732F1766CB2A9A453 /* Pods-iosTest-OgariPataPacheco */,
+				2D90B63D9FF5C7FCE39BB9ED992B192D /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests */,
+				E2C0B0AF1A5537D817490006FA4D9787 /* Pods-iosTest-OgariPataPachecoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FA566F451D8947EDA1C5F4C68B61A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58454196EEBC528C654D39CDDC16EA02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC7647CEA14038B51F94F97E155E976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7122FE3A510C4A6122A874816E93BE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A54C13F6951D3774EE02ECC33DBB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC719880AB259196B06AA79D3E0F939B /* Pods-iosTest-OgariPataPacheco-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19663659F1838DA64BE1D71836703EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3BCC4E33C26BFFDCE9BE60AF459E9 /* AKVideoImageView-dummy.m in Sources */,
+				1BE7217EECD4335430EF81E4824733A1 /* AKVideoImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2021D82DFFCA82F82D024BAE1E5F30C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC0BE6E7DE29BA03D868005061C5737 /* Pods-iosTest-OgariPataPachecoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423B2384359D01D45EA1E5AF86E2031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30F238046A1BFE8B0EE418FBDEFD862 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CFAD8311DC8DAB710F06BCC569EA5D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iosTest-OgariPataPacheco";
+			target = BC3DE3CFBA61608732F1766CB2A9A453 /* Pods-iosTest-OgariPataPacheco */;
+			targetProxy = 105EAE876ACC2A47341F1EF7A6FACC34 /* PBXContainerItemProxy */;
+		};
+		ACA0DFF06A1C18991370B8EDB6A22532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKVideoImageView;
+			target = 73DAAF0C6F3A3A10F5B7973CEEE7AAF2 /* AKVideoImageView */;
+			targetProxy = 5D7F3EA9BF925E017136BF209211D082 /* PBXContainerItemProxy */;
+		};
+		CBB604054E90B36D75511E05086EDBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKVideoImageView;
+			target = 73DAAF0C6F3A3A10F5B7973CEEE7AAF2 /* AKVideoImageView */;
+			targetProxy = F6E348DA2DDF89023BBEA55008CC1C6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BEDDA0DC64F8AD6AD1F763EAAF1B07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0894DF7705751A9770169A559447682 /* Pods-iosTest-OgariPataPachecoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iosTest-OgariPataPachecoTests/Pods-iosTest-OgariPataPachecoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosTest-OgariPataPachecoTests/Pods-iosTest-OgariPataPachecoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		278AFF1FD729C3B9E26356BC53F07829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD09E500C81A8261118440AF4AAC5388 /* AKVideoImageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKVideoImageView/AKVideoImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKVideoImageView/AKVideoImageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AKVideoImageView/AKVideoImageView.modulemap";
+				PRODUCT_MODULE_NAME = AKVideoImageView;
+				PRODUCT_NAME = AKVideoImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		368A2A91976A0143427ED47C39F3DABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AE93177AA729407B36897BD3AB3D5F /* Pods-iosTest-OgariPataPacheco.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco/Pods-iosTest-OgariPataPacheco-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco/Pods-iosTest-OgariPataPacheco.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36C3CD206379224F05BAF8F8E9C574F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C849DCDB86EEFCC2809129EFDE636A86 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BCBE6976895CE5740DE05CD81EDEF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD09E500C81A8261118440AF4AAC5388 /* AKVideoImageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKVideoImageView/AKVideoImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKVideoImageView/AKVideoImageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AKVideoImageView/AKVideoImageView.modulemap";
+				PRODUCT_MODULE_NAME = AKVideoImageView;
+				PRODUCT_NAME = AKVideoImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6D3F4BD7508FD2395B7B4440AD8D5F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B61C4E51BF4DA2FCA5F7A391C445778 /* Pods-iosTest-OgariPataPacheco.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco/Pods-iosTest-OgariPataPacheco-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco/Pods-iosTest-OgariPataPacheco.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E764EA37316219BE2FF49DDB195D0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC4E4B1476C66E24B509CB043A8F7B9 /* Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests/Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8AA6AD0FC10E9CAAE0A320C37737155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BC852E63DD7510F2F00E9EBDB2FC87 /* Pods-iosTest-OgariPataPachecoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iosTest-OgariPataPachecoTests/Pods-iosTest-OgariPataPachecoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosTest-OgariPataPachecoTests/Pods-iosTest-OgariPataPachecoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B14A768AF7D30EEF7A80448D0C6772A /* Build configuration list for PBXNativeTarget "Pods-iosTest-OgariPataPacheco-iosTest-OgariPataPachecoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C3CD206379224F05BAF8F8E9C574F9 /* Debug */,
+				8E764EA37316219BE2FF49DDB195D0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55207E1AD647CE1165CB13008CD3BA21 /* Build configuration list for PBXNativeTarget "Pods-iosTest-OgariPataPachecoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8AA6AD0FC10E9CAAE0A320C37737155 /* Debug */,
+				0BEDDA0DC64F8AD6AD1F763EAAF1B07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D44E3F5DDA8AE84171AE4A20A3295A5 /* Build configuration list for PBXNativeTarget "AKVideoImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278AFF1FD729C3B9E26356BC53F07829 /* Debug */,
+				4BCBE6976895CE5740DE05CD81EDEF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2491D1AE2B103908F36098B6FB9E48 /* Build configuration list for PBXNativeTarget "Pods-iosTest-OgariPataPacheco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3F4BD7508FD2395B7B4440AD8D5F75 /* Debug */,
+				368A2A91976A0143427ED47C39F3DABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
