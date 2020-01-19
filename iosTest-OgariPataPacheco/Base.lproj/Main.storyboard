@@ -29,26 +29,24 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="customImageCell" id="Pyh-UG-AzK" customClass="CollectionViewCustomImageCell" customModule="iosTest_OgariPataPacheco" customModuleProvider="target">
-                                        <rect key="frame" x="10" y="10" width="100" height="100"/>
+                                        <rect key="frame" x="10" y="10" width="150" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d5y-fF-3px">
-                                                    <rect key="frame" x="5" y="1" width="90" height="90"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="90" id="Iar-sg-rBv"/>
-                                                        <constraint firstAttribute="height" constant="90" id="YfG-Et-k9e"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="0.0" y="5" width="150" height="150"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <constraints>
+                                            <constraint firstAttribute="height" secondItem="d5y-fF-3px" secondAttribute="height" id="FPO-eG-CsA"/>
                                             <constraint firstItem="d5y-fF-3px" firstAttribute="centerX" secondItem="Pyh-UG-AzK" secondAttribute="centerX" id="Ma0-td-zjf"/>
-                                            <constraint firstItem="d5y-fF-3px" firstAttribute="top" secondItem="Pyh-UG-AzK" secondAttribute="top" constant="1" id="j7U-pl-yc0"/>
+                                            <constraint firstItem="d5y-fF-3px" firstAttribute="width" secondItem="Pyh-UG-AzK" secondAttribute="width" id="bzq-q8-oqo"/>
+                                            <constraint firstItem="d5y-fF-3px" firstAttribute="top" secondItem="Pyh-UG-AzK" secondAttribute="top" constant="5" id="j7U-pl-yc0"/>
                                         </constraints>
-                                        <size key="customSize" width="100" height="100"/>
+                                        <size key="customSize" width="150" height="150"/>
                                         <connections>
                                             <outlet property="imageView" destination="d5y-fF-3px" id="czI-NI-dim"/>
                                         </connections>
