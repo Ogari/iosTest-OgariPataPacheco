@@ -14,7 +14,7 @@ class APIServices {
     let global: GlobalAssets = GlobalAssets()
     
     func imgurGetImageURLs(gallery: Array<Any>, collectionView: UICollectionView){
-        for i in 0...gallery.count {
+        for i in 0...gallery.count-1 {
             print(i)
             guard let imgs = (gallery[i] as AnyObject)["images"] as? Array<Any>
                 else {
