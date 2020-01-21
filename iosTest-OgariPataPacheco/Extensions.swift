@@ -44,9 +44,11 @@ extension UIImageView {
                     // Searches the URL and tries to play it
                     let fileURL = NSURL.init(fileURLWithPath: filePath)
                     //                        let request = NSURLRequest.init(url: fileURL as URL)
-                    
-                    let videoView = AKVideoImageView(frame: self.bounds, videoURL: fileURL as URL)!
-                    self.addSubview(videoView)
+                    DispatchQueue.main.async {
+                        let videoView = AKVideoImageView(frame: self.bounds, videoURL: fileURL as URL)!
+                        self.addSubview(videoView)
+                    }
+//                    self.addSubview(videoView)
                 }
                 else{
                     //Download
